@@ -12,3 +12,6 @@ def test_mean_basic3():
 
 def test_mean_basic4():
     assert(mean([3,1,-4,1,-6,2]) == -0.5)
+
+def test_mean_corner1():
+    assert(mean([0]) == 0)
