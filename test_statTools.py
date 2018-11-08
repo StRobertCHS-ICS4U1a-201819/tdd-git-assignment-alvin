@@ -9,3 +9,6 @@ def test_mean_basic2():
 
 def test_mean_basic3():
     assert(mean([]) == 0)
+
+def test_mean_basic4():
+    assert(mean([3,1,-4,1,-6,2]) == -0.5)
