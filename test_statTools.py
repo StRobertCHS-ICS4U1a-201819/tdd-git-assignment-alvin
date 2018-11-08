@@ -6,3 +6,6 @@ def test_mean_basic1():
 
 def test_mean_basic2():
     assert(mean([7,1,3,0,0,1]) == 2)
+
+def test_mean_basic3():
+    assert(mean([]) == 0)
