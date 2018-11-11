@@ -48,6 +48,8 @@ def lower_quartile(my_list):
     my_list.sort()
     if len(my_list) == 0:
         return "Error: Empty List"
+    elif len(my_list) < 2:
+        return "No upper or lower quartile"
     if len(my_list) % 2 == 0 and len(my_list) % 4 == 0:
         new_list = my_list[:int(len(my_list)/2)]
         new_list = new_list[:int(len(new_list)/2)+1]

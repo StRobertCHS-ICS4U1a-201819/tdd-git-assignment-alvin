@@ -76,6 +76,10 @@ def test_lower_quartile_basic4():
 def test_lower_quartile_corner1():
     assert(lower_quartile([]) == "Error: Empty List")
 
+def test_lower_quartile_corner2():
+    assert(lower_quartile([1]) == "No upper or lower quartile")
+
+
 
 
 
