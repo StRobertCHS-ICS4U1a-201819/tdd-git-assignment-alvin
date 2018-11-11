@@ -47,3 +47,8 @@ def test_mode_corner():
 def test_mode_corner2():
     assert(mode([1]) == 1)
 
+def test_mode_unusual():
+    assert(mode(["3", "1", "5", 1, "7", 3]) == "There is no unique mode")
+
+
+
