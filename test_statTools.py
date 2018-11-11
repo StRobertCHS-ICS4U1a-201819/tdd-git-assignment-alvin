@@ -29,6 +29,10 @@ def test_mean_unusual():
 def test_mode_basic1():
     assert(mode([1,2,2,4,5,7,8]) == 2)
 
+#general case: unsorted list
+def test_mode_basic2():
+    assert(mode([5,1,2,7,2,8,4]) == 2)
+
 
 
 
