@@ -43,7 +43,7 @@ def test_mode_basic4():
 
 #corner case: empty list
 def test_mode_corner():
-    assert(mode([]) == "empty string list")
+    assert(mode([]) == "Error: Empty List")
 
 #corner case: list of one integer
 def test_mode_corner2():
@@ -72,6 +72,9 @@ def test_lower_quartile_basic3():
 #general case: unsorted list with negative integers (length of list is odd)
 def test_lower_quartile_basic4():
     assert(lower_quartile([-12, 5, -22, 30, 7, -36, 14, 42, - 15, 53, 25]) == -15)
+
+def test_lower_quartile_corner1():
+    assert(lower_quartile([]) == "Error: Empty List")
 
 
 
