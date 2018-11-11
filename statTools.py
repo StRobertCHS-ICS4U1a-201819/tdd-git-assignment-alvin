@@ -23,8 +23,16 @@ def mean(my_list):
     except TypeError:
         return "Error: TypeError"
 
+def mode(my_list):
+  count = 0
+  mode = None
+  for i in my_list:
+    max_occurences = my_list.count(i)
+    if max_occurences > count:
+        count = max_occurences
+        mode = i
 
-
+  return mode
 
 
 

@@ -25,3 +25,10 @@ def test_mean_corner2():
 def test_mean_unusual():
     assert(mean(["2","4","7","3"]) == "Error: TypeError")
 
+#general case: sorted list
+def test_mode_basic1():
+    assert(mode([1,2,2,4,5,7,8]) == 2)
+
+
+
+
