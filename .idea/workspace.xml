@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="721b11d9-4b93-4acf-adc0-2de47be565ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="721b11d9-4b93-4acf-adc0-2de47be565ff" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,13 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/tdd_git_assignment_alvin$pytest_for_test_statTools_test_mean_corner1.coverage" NAME="pytest for test_statTools.test_mean_corner1 Coverage Results" MODIFIED="1541656641007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tdd_git_assignment_alvin$pytest_for_test_statTools_test_mean_basic2.coverage" NAME="pytest for test_statTools.test_mean_basic2 Coverage Results" MODIFIED="1541652638357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tdd_git_assignment_alvin$pytest_for_test_statTools_test_mean_basic4.coverage" NAME="pytest for test_statTools.test_mean_basic4 Coverage Results" MODIFIED="1541655954831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tdd_git_assignment_alvin$pytest_in_test_statTools_py.coverage" NAME="pytest in test_statTools.py Coverage Results" MODIFIED="1541648186337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tdd_git_assignment_alvin$statTools.coverage" NAME="statTools Coverage Results" MODIFIED="1541647849163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tdd_git_assignment_alvin$pytest_for_test_statTools_test_mean_basic1.coverage" NAME="pytest for test_statTools.test_mean_basic1 Coverage Results" MODIFIED="1541648991467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tdd_git_assignment_alvin$pytest_for_test_statTools_test_mean_basic3.coverage" NAME="pytest for test_statTools.test_mean_basic3 Coverage Results" MODIFIED="1541653907355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tdd_git_assignment_alvin1$pytest_for_test_statTools_test_mean_corner1__1_.coverage" NAME="pytest for test_statTools.test_mean_corner1 (1) Coverage Results" MODIFIED="1541897207261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-251008839">
@@ -61,17 +53,14 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_statTools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+            <state relative-caret-position="272">
+              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <marker date="1541655954806" expanded="true" signature="124:129" ph="..." />
-                <marker date="1541655954806" expanded="true" signature="186:191" ph="..." />
-                <marker date="1541655954806" expanded="true" signature="237:242" ph="..." />
               </folding>
             </state>
           </provider>
@@ -80,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/statTools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="102">
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -122,8 +111,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="tdd-git-assignment-alvin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tdd-git-assignment-alvin" type="462c0819:PsiDirectoryNode" />
+              <item name="tdd-git-assignment-alvin1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tdd-git-assignment-alvin1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -155,23 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_statTools.test_mean_corner1">
-    <configuration name="pytest for test_statTools.test_mean_basic1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="tdd-git-assignment-alvin" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_statTools.test_mean_basic1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for test_statTools.test_mean_corner1 (1)">
     <configuration name="pytest for test_statTools.test_mean_basic2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="tdd-git-assignment-alvin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -220,6 +193,22 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_statTools.test_mean_corner1 (1)" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="tdd-git-assignment-alvin1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_statTools.test_mean_corner1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_statTools.test_mean_corner1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="tdd-git-assignment-alvin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,19 +226,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest for test_statTools.test_mean_basic1" />
       <item itemvalue="Python tests.pytest for test_statTools.test_mean_basic2" />
       <item itemvalue="Python tests.pytest for test_statTools.test_mean_basic3" />
       <item itemvalue="Python tests.pytest for test_statTools.test_mean_basic4" />
       <item itemvalue="Python tests.pytest for test_statTools.test_mean_corner1" />
+      <item itemvalue="Python tests.pytest for test_statTools.test_mean_corner1 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_statTools.test_mean_corner1 (1)" />
         <item itemvalue="Python tests.pytest for test_statTools.test_mean_corner1" />
         <item itemvalue="Python tests.pytest for test_statTools.test_mean_basic4" />
         <item itemvalue="Python tests.pytest for test_statTools.test_mean_basic3" />
         <item itemvalue="Python tests.pytest for test_statTools.test_mean_basic2" />
-        <item itemvalue="Python tests.pytest for test_statTools.test_mean_basic1" />
       </list>
     </recent_temporary>
   </component>
@@ -267,9 +256,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_statTools_test_mean_basic1 - 2018.11.07 at 22h 47m 56s.xml">
-      <configuration name="pytest for test_statTools.test_mean_basic1" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_statTools_test_mean_basic1 - 2018.11.07 at 22h 49m 44s.xml">
       <configuration name="pytest for test_statTools.test_mean_basic1" configurationId="tests" />
     </history-entry>
@@ -297,17 +283,20 @@
     <history-entry file="pytest_for_test_statTools_test_mean_basic4 - 2018.11.08 at 00h 45m 55s.xml">
       <configuration name="pytest for test_statTools.test_mean_basic4" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_statTools_test_mean_corner1_(1) - 2018.11.10 at 19h 46m 49s.xml">
+      <configuration name="pytest for test_statTools.test_mean_corner1 (1)" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="253" y="20" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1716418" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290993" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290993" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995381" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -316,7 +305,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3290993" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3290993" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -333,11 +322,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/venv/Lib/tcl8.6/init.tcl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1428" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/tcl8.6/init.tcl" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -346,25 +331,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.pytest_cache/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.pytest_cache/.gitignore" />
     <entry file="file://$PROJECT_DIR$/statTools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="102">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_statTools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        <state relative-caret-position="272">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1541655954806" expanded="true" signature="124:129" ph="..." />
-            <marker date="1541655954806" expanded="true" signature="186:191" ph="..." />
-            <marker date="1541655954806" expanded="true" signature="237:242" ph="..." />
           </folding>
         </state>
       </provider>
