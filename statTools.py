@@ -1,15 +1,33 @@
 def median(num):
-
+    # list created to determine median
     num_list = list(num)
-    numbers = len(num_list)
+    # length of created list
+    len_num_list = len(num_list)
 
-    if numbers % 2 == 1:
-        list_median = num_list[(int(numbers/2))]
+    if len_num_list % 2 == 1:
+        list_median = num_list[(int(len_num_list/2))]
 
-    elif numbers == 0:
+    elif len_num_list == 0:
         list_median = 0
 
     else:
-        list_median = (num_list[int(numbers/2) - 1] + num_list[int(numbers/2)])/2
+        list_median = (num_list[int(len_num_list/2) - 1] + num_list[int(len_num_list/2)])/2
 
     return list_median
+
+
+def range(num):
+
+    num_list = list(num)
+
+    if len(num_list) >= 2:
+        return num_list[len(num_list) - 1] - num_list[0]
+
+    elif len(num_list) == 1:
+        return num_list[0]
+
+    else:
+        return 0
+
+
+
