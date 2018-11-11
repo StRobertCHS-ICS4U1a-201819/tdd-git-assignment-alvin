@@ -85,7 +85,8 @@ def test_lower_quartile_corner2():
 def test_lower_quartile_unusual():
     assert(lower_quartile(["p", "f", 3, "12", "."]) == "Error: TypeError")
 
-
+def test_lower_quartile_unusual2():
+    assert(lower_quartile(["good morning", 13, "!?", 7, 3]) == "Error: TypeError")
 
 
 
