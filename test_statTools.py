@@ -44,3 +44,6 @@ def test_mode_basic4():
 def test_mode_corner():
     assert(mode([]) == "empty string list")
 
+def test_mode_corner2():
+    assert(mode([1]) == 1)
+
