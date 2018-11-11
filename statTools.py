@@ -1,14 +1,13 @@
 def median(num):
-    # list created to determine median
+
     num_list = list(num)
-    # length of created list
     len_num_list = len(num_list)
 
     if len_num_list % 2 == 1:
         list_median = num_list[(int(len_num_list/2))]
 
     elif len_num_list == 0:
-        list_median = 0
+        list_median = "Error: Empty List"
 
     else:
         list_median = (num_list[int(len_num_list/2) - 1] + num_list[int(len_num_list/2)])/2
@@ -27,7 +26,5 @@ def range(num):
         return num_list[0]
 
     else:
-        return 0
-
-
+        return "Error: Empty List"
 

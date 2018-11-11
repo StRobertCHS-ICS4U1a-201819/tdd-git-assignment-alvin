@@ -1,31 +1,36 @@
 import pytest
 from statTools import*
 
-# MEDIAN TESTS
+# GENERAL MEDIAN TESTS
 def test_median_basic1():
     assert(median([1, 2, 3, 4, 5, 6, 7]) == 4)
 
 def test_median_basic2():
-    assert(median([9, 8, 7, 6, 5, 4, 3]) == 6)
-
-def test_median_basic3():
     assert(median([2, 4, 6, 7]) == 5)
 
-def test_median_basic4():
-    assert(median([]) == 0)
+# CORNER MEDIAN TESTS
+def test_median_corner1():
+    assert(median([]) == "Error: Empty List")
 
-# RANGE TESTS
-def test_range_basic1():
-    assert(range([1, 2, 3, 4, 5]) == 4)
+def test_median_corner2():
+    assert(median([0]) == 0)
 
-def test_range_basic2():
+# GENERAL RANGE TESTS
+def test_ranges_basic1():
+    assert(range([1, 2, 3, 4, 5, 6]) == 5)
+
+def test_ranges_basic2():
     assert(range([3, 4, 5, 5, 6, 7, 13]) == 10)
 
-def test_range_basic3():
+# CORNER RANGE TESTS
+def test_ranges_corner1():
     assert(range([5]) == 5)
 
-def test_range_basic4():
-    assert(range([]) == 0)
+def test_ranges_corner2():
+    assert(range([]) == "Error: Empty List")
 
-# VARIANCE TESTS
+# GENERAL VARIANCE TESTS
+def test_variance_basic1():
+    assert()
+
 
