@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="721b11d9-4b93-4acf-adc0-2de47be565ff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/statTools.py" beforeDir="false" afterPath="$PROJECT_DIR$/statTools.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_statTools.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_statTools.py" afterDir="false" />
     </list>
@@ -21,12 +22,15 @@
     <SUITE FILE_PATH="coverage/tdd_git_assignment_alvin1$pytest_for_test_statTools_test_mean_basic2.coverage" NAME="pytest for test_statTools.test_mean_basic2 Coverage Results" MODIFIED="1541903716832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tdd_git_assignment_alvin1$pytest_for_test_statTools_test_mode_basic2.coverage" NAME="pytest for test_statTools.test_mode_basic2 Coverage Results" MODIFIED="1541915036046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tdd_git_assignment_alvin1$pytest_for_test_statTools_test_mode_corner2.coverage" NAME="pytest for test_statTools.test_mode_corner2 Coverage Results" MODIFIED="1541916486290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tdd_git_assignment_alvin1$pytest_for_test_statTools_test_mode_unusual__1_.coverage" NAME="pytest for test_statTools.test_mode_unusual (1) Coverage Results" MODIFIED="1541964847721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tdd_git_assignment_alvin1$pytest_for_test_statTools_test_mode_basic1.coverage" NAME="pytest for test_statTools.test_mode_basic1 Coverage Results" MODIFIED="1541914899096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tdd_git_assignment_alvin1$pytest_for_test_statTools_test_mode_basic4.coverage" NAME="pytest for test_statTools.test_mode_basic4 Coverage Results" MODIFIED="1541916466416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tdd_git_assignment_alvin1$pytest_in_test_statTools_py.coverage" NAME="pytest in test_statTools.py Coverage Results" MODIFIED="1541902402029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tdd_git_assignment_alvin1$pytest_for_test_statTools_test_mode_unusual2.coverage" NAME="pytest for test_statTools.test_mode_unusual2 Coverage Results" MODIFIED="1541917075433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tdd_git_assignment_alvin1$pytest_in_test_statTools_py.coverage" NAME="pytest in test_statTools.py Coverage Results" MODIFIED="1541917124611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tdd_git_assignment_alvin1$pytest_for_test_statTools_test_mean_corner1.coverage" NAME="pytest for test_statTools.test_mean_corner1 Coverage Results" MODIFIED="1541901910747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tdd_git_assignment_alvin1$pytest_for_test_statTools_test_mean_basic1.coverage" NAME="pytest for test_statTools.test_mean_basic1 Coverage Results" MODIFIED="1541902382292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tdd_git_assignment_alvin1$pytest_for_test_statTools_test_mode_unusual.coverage" NAME="pytest for test_statTools.test_mode_unusual Coverage Results" MODIFIED="1541916776652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tdd_git_assignment_alvin1$pytest_for_test_statTools_test_mode_unusual2__1_.coverage" NAME="pytest for test_statTools.test_mode_unusual2 (1) Coverage Results" MODIFIED="1541965286356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-251008839">
@@ -71,28 +75,35 @@
     <session id="2003514705">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3191" />
+          <entry key="py" value="3701" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3191" />
+          <entry key="Python" value="3701" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_statTools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+            <state relative-caret-position="346">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <marker date="1541916776628" expanded="true" signature="472:477" ph="..." />
-                <marker date="1541916776628" expanded="true" signature="570:575" ph="..." />
-                <marker date="1541916776628" expanded="true" signature="1202:1278" ph="..." />
+                <marker date="1541965293953" expanded="true" signature="472:477" ph="..." />
+                <marker date="1541965293953" expanded="true" signature="570:575" ph="..." />
+                <marker date="1541965293953" expanded="true" signature="1461:1530" ph="..." />
               </folding>
             </state>
           </provider>
@@ -101,12 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/statTools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-              <folding>
-                <marker date="1541916602894" expanded="true" signature="630:1263" ph="..." />
-                <marker date="1541916602894" expanded="true" signature="649:659" ph="..." />
-              </folding>
+            <state relative-caret-position="142">
+              <caret line="26" selection-start-line="26" selection-end-line="26" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -180,9 +187,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_statTools.test_mode_unusual">
-    <configuration name="pytest for test_statTools.test_mode_basic3" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="tdd-git-assignment-alvin1" />
+  <component name="RunManager" selected="Python tests.pytest for test_statTools.test_mode_unusual2 (1)">
+    <configuration name="pytest for test_statTools.test_mode_unusual (1)" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="tdd-git-assignment-alvin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -193,55 +200,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_statTools.test_mode_basic3&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_statTools.test_mode_basic4" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="tdd-git-assignment-alvin1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_statTools.test_mode_basic4&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_statTools.test_mode_corner" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="tdd-git-assignment-alvin1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_statTools.test_mode_corner&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_statTools.test_mode_corner2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="tdd-git-assignment-alvin1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_statTools.test_mode_corner2&quot;" />
+      <option name="_new_target" value="&quot;test_statTools.test_mode_unusual&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -261,20 +220,68 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_statTools.test_mode_unusual2 (1)" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="tdd-git-assignment-alvin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_statTools.test_mode_unusual2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_statTools.test_mode_unusual2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="tdd-git-assignment-alvin1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_statTools.test_mode_unusual2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_statTools.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="tdd-git-assignment-alvin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_statTools.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python tests.pytest for test_statTools.test_mode_basic4" />
-      <item itemvalue="Python tests.pytest for test_statTools.test_mode_corner" />
-      <item itemvalue="Python tests.pytest for test_statTools.test_mode_corner2" />
-      <item itemvalue="Python tests.pytest for test_statTools.test_mode_basic3" />
       <item itemvalue="Python tests.pytest for test_statTools.test_mode_unusual" />
+      <item itemvalue="Python tests.pytest for test_statTools.test_mode_unusual2" />
+      <item itemvalue="Python tests.pytest in test_statTools.py" />
+      <item itemvalue="Python tests.pytest for test_statTools.test_mode_unusual (1)" />
+      <item itemvalue="Python tests.pytest for test_statTools.test_mode_unusual2 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_statTools.test_mode_unusual2 (1)" />
+        <item itemvalue="Python tests.pytest for test_statTools.test_mode_unusual (1)" />
+        <item itemvalue="Python tests.pytest in test_statTools.py" />
+        <item itemvalue="Python tests.pytest for test_statTools.test_mode_unusual2" />
         <item itemvalue="Python tests.pytest for test_statTools.test_mode_unusual" />
-        <item itemvalue="Python tests.pytest for test_statTools.test_mode_corner2" />
-        <item itemvalue="Python tests.pytest for test_statTools.test_mode_basic3" />
-        <item itemvalue="Python tests.pytest for test_statTools.test_mode_basic4" />
-        <item itemvalue="Python tests.pytest for test_statTools.test_mode_corner" />
       </list>
     </recent_temporary>
   </component>
@@ -292,35 +299,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_statTools_test_mode_basic3 - 2018.11.11 at 01h 07m 49s.xml">
-      <configuration name="pytest for test_statTools.test_mode_basic3" configurationId="tests" />
+    <history-entry file="pytest_for_test_statTools_test_mode_unusual2 - 2018.11.11 at 01h 17m 56s.xml">
+      <configuration name="pytest for test_statTools.test_mode_unusual2" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_statTools_test_mode_corner2 - 2018.11.11 at 01h 07m 53s.xml">
-      <configuration name="pytest for test_statTools.test_mode_corner2" configurationId="tests" />
+    <history-entry file="pytest_in_test_statTools_py - 2018.11.11 at 01h 18m 46s.xml">
+      <configuration name="pytest in test_statTools.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_statTools_test_mode_corner2 - 2018.11.11 at 01h 08m 07s.xml">
-      <configuration name="pytest for test_statTools.test_mode_corner2" configurationId="tests" />
+    <history-entry file="pytest_for_test_statTools_test_mode_unusual_(1) - 2018.11.11 at 14h 21m 30s.xml">
+      <configuration name="pytest for test_statTools.test_mode_unusual (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_statTools_test_mode_unusual - 2018.11.11 at 01h 10m 03s.xml">
-      <configuration name="pytest for test_statTools.test_mode_unusual" configurationId="tests" />
+    <history-entry file="pytest_for_test_statTools_test_mode_unusual_(1) - 2018.11.11 at 14h 21m 42s.xml">
+      <configuration name="pytest for test_statTools.test_mode_unusual (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_statTools_test_mode_unusual - 2018.11.11 at 01h 10m 38s.xml">
-      <configuration name="pytest for test_statTools.test_mode_unusual" configurationId="tests" />
+    <history-entry file="pytest_for_test_statTools_test_mode_unusual_(1) - 2018.11.11 at 14h 22m 29s.xml">
+      <configuration name="pytest for test_statTools.test_mode_unusual (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_statTools_test_mode_unusual - 2018.11.11 at 01h 10m 54s.xml">
-      <configuration name="pytest for test_statTools.test_mode_unusual" configurationId="tests" />
+    <history-entry file="pytest_for_test_statTools_test_mode_unusual_(1) - 2018.11.11 at 14h 22m 58s.xml">
+      <configuration name="pytest for test_statTools.test_mode_unusual (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_statTools_test_mode_unusual - 2018.11.11 at 01h 11m 10s.xml">
-      <configuration name="pytest for test_statTools.test_mode_unusual" configurationId="tests" />
+    <history-entry file="pytest_for_test_statTools_test_mode_unusual_(1) - 2018.11.11 at 14h 33m 31s.xml">
+      <configuration name="pytest for test_statTools.test_mode_unusual (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_statTools_test_mode_unusual - 2018.11.11 at 01h 11m 34s.xml">
-      <configuration name="pytest for test_statTools.test_mode_unusual" configurationId="tests" />
+    <history-entry file="pytest_for_test_statTools_test_mode_unusual_(1) - 2018.11.11 at 14h 34m 08s.xml">
+      <configuration name="pytest for test_statTools.test_mode_unusual (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_statTools_test_mode_unusual - 2018.11.11 at 01h 11m 45s.xml">
-      <configuration name="pytest for test_statTools.test_mode_unusual" configurationId="tests" />
+    <history-entry file="pytest_for_test_statTools_test_mode_unusual2_(1) - 2018.11.11 at 14h 40m 53s.xml">
+      <configuration name="pytest for test_statTools.test_mode_unusual2 (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_statTools_test_mode_unusual - 2018.11.11 at 01h 12m 57s.xml">
-      <configuration name="pytest for test_statTools.test_mode_unusual" configurationId="tests" />
+    <history-entry file="pytest_for_test_statTools_test_mode_unusual2_(1) - 2018.11.11 at 14h 41m 26s.xml">
+      <configuration name="pytest for test_statTools.test_mode_unusual2 (1)" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -336,7 +343,7 @@
     <frame x="253" y="20" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -402,24 +409,20 @@
     <entry file="file://$PROJECT_DIR$/.pytest_cache/.gitignore" />
     <entry file="file://$PROJECT_DIR$/statTools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-          <folding>
-            <marker date="1541916602894" expanded="true" signature="630:1263" ph="..." />
-            <marker date="1541916602894" expanded="true" signature="649:659" ph="..." />
-          </folding>
+        <state relative-caret-position="142">
+          <caret line="26" selection-start-line="26" selection-end-line="26" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_statTools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+        <state relative-caret-position="346">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1541916776628" expanded="true" signature="472:477" ph="..." />
-            <marker date="1541916776628" expanded="true" signature="570:575" ph="..." />
-            <marker date="1541916776628" expanded="true" signature="1202:1278" ph="..." />
+            <marker date="1541965293953" expanded="true" signature="472:477" ph="..." />
+            <marker date="1541965293953" expanded="true" signature="570:575" ph="..." />
+            <marker date="1541965293953" expanded="true" signature="1461:1530" ph="..." />
           </folding>
         </state>
       </provider>

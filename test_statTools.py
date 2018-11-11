@@ -39,16 +39,26 @@ def test_mode_basic3():
 
 #general case: more than one mode
 def test_mode_basic4():
-    assert(mode([1,3,2,3,1,4,4,5]) == "There is no unique mode")
+    assert(mode([1, 3, 2, 3, 1, 4, 4, 5]) == "There is no unique mode")
 
+#corner case: empty list
 def test_mode_corner():
     assert(mode([]) == "empty string list")
 
+#corner case: list of one integer
 def test_mode_corner2():
     assert(mode([1]) == 1)
 
+#unusual case: list with integers and strings
 def test_mode_unusual():
     assert(mode(["3", "1", "5", 1, "7", 3]) == "There is no unique mode")
+
+#unusual case: list with integers and strings
+def test_mode_unusual2():
+    assert (mode(["3", "f", 7, ".","r", "g", 3, "."]) == ".")
+
+
+
 
 
 
