@@ -3,15 +3,15 @@ from statTools import *
 
 #general case: sorted list
 def test_mean_basic1():
-    assert(mean([1,2,4,7,8]) == 4.4)
+    assert(mean([1, 2, 4, 7, 8]) == 4.4)
 
 #general case: unsorted list
 def test_mean_basic2():
-    assert(mean([7,1,3,0,0,1]) == 2)
+    assert(mean([7, 1, 3, 0, 0, 1]) == 2)
 
 #general case: list with negative integers included
 def test_mean_basic3():
-    assert(mean([3,1,-4,1,-6,2]) == -0.5)
+    assert(mean([3, 1, -4, 1, -6, 2]) == -0.5)
 
 #corner case: list of 1 integer
 def test_mean_corner1():
@@ -23,19 +23,19 @@ def test_mean_corner2():
 
 #unusual case: string input
 def test_mean_unusual():
-    assert(mean(["2","4","7","3"]) == "Error: TypeError")
+    assert(mean(["2", "4", "7", "3"]) == "Error: TypeError")
 
 #general case: sorted list
 def test_mode_basic1():
-    assert(mode([1,2,2,4,5,7,8]) == 2)
+    assert(mode([1, 2, 2, 4, 5, 7, 8]) == 2)
 
 #general case: unsorted list
 def test_mode_basic2():
-    assert(mode([5,1,2,7,2,8,4]) == 2)
+    assert(mode([5, 1, 2, 7, 2, 8, 4]) == 2)
 
 #general case: list with negative integers included
 def test_mode_basic3():
-    assert(mode([1,4,3,-5,-1,4,2]) == 4)
+    assert(mode([1, 4, 3, -5, -1, 4, 2]) == 4)
 
 #general case: more than one mode
 def test_mode_basic4():
@@ -55,7 +55,16 @@ def test_mode_unusual():
 
 #unusual case: list with integers and strings
 def test_mode_unusual2():
-    assert (mode(["3", "f", 7, ".","r", "g", 3, "."]) == ".")
+    assert (mode(["3", "f", 7, ".", "r", "g", 3, "."]) == ".")
+
+#genercal case: sorted list
+def test_lower_quartile_basic1():
+    assert(lower_quartile([1, 1, 2, 4, 5, 5, 7, 8]) == 1.5)
+
+
+
+
+
 
 
 
