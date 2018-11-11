@@ -65,6 +65,9 @@ def test_lower_quartile_basic1():
 def test_lower_quartile_basic2():
     assert(lower_quartile([12, 5, 22, 30, 7, 36, 14, 42, 15, 53, 25, 65]) == 13)
 
+def test_lower_quartile_basic3():
+    assert (lower_quartile([1, 2, 3, 4, 5, 6, 6, 7, 8, 8]) == 3)
+
 
 
 

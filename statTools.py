@@ -47,11 +47,17 @@ def lower_quartile(my_list):
     new_list = []
     my_list.sort()
     print(my_list)
-    if len(my_list) % 2 == 0:
-      new_list = my_list[:int(len(my_list)/2)]
-      new_list = new_list[:int(len(new_list)/2)+1]
-      median = (new_list[len(new_list)-1] + new_list[len(new_list)-2]) / 2
-      return median
+    if len(my_list) % 2 == 0 and len(my_list) % 4 == 0:
+        new_list = my_list[:int(len(my_list)/2)]
+        new_list = new_list[:int(len(new_list)/2)+1]
+        median = (new_list[len(new_list)-1] + new_list[len(new_list)-2]) / 2
+        return median
+    elif len(my_list) % 2 == 0 and len(my_list) % 4 != 0:
+        new_list = my_list[:int(len(my_list) / 2)]
+        new_list = new_list[:int(len(new_list) / 2) + 1]
+        median = new_list[len(new_list)-1]
+        return median
+
 
 
 
