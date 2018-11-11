@@ -57,9 +57,13 @@ def test_mode_unusual():
 def test_mode_unusual2():
     assert (mode(["3", "f", 7, ".", "r", "g", 3, "."]) == ".")
 
-#genercal case: sorted list
+#genercal case: sorted list (length of list is even)
 def test_lower_quartile_basic1():
     assert(lower_quartile([1, 1, 2, 4, 5, 5, 7, 8]) == 1.5)
+
+#general case: unsorted list (length of list is even)
+def test_lower_quartile_basic2():
+    assert(lower_quartile([12, 5, 22, 30, 7, 36, 14, 42, 15, 53, 25, 65]) == 13)
 
 
 
