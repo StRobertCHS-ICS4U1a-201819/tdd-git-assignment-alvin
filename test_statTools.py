@@ -73,11 +73,20 @@ def test_lower_quartile_basic3():
 def test_lower_quartile_basic4():
     assert(lower_quartile([-12, 5, -22, 30, 7, -36, 14, 42, - 15, 53, 25]) == -15)
 
+#corner case: empty list
 def test_lower_quartile_corner1():
     assert(lower_quartile([]) == "Error: Empty List")
 
+#corner case: list of 1 integer
 def test_lower_quartile_corner2():
     assert(lower_quartile([1]) == "No upper or lower quartile")
+
+#unusual case: list with integers and strings
+def test_lower_quartile_unusual():
+    assert(lower_quartile(["p", "f", 3, "12", "."]) == "Error: TypeError")
+
+
+
 
 
 
