@@ -37,6 +37,8 @@ def test_mode_basic2():
 def test_mode_basic3():
     assert(mode([1,4,3,-5,-1,4,2]) == 4)
 
-
+#general case: more than one mode
+def test_mode_basic4():
+    assert(mode([1,3,2,3,1,4,4,5]) == "There is no unique mode")
 
 
