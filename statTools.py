@@ -34,6 +34,8 @@ def mode(my_list):
         mode = i
     if max_occurences == count:
         mode2 = i
+  if len(my_list) == 0:
+      return "empty string list"
   if mode != mode2:
       return "There is no unique mode"
   else:

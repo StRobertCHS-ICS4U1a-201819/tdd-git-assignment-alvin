@@ -41,4 +41,6 @@ def test_mode_basic3():
 def test_mode_basic4():
     assert(mode([1,3,2,3,1,4,4,5]) == "There is no unique mode")
 
+def test_mode_corner():
+    assert(mode([]) == "empty string list")
 
