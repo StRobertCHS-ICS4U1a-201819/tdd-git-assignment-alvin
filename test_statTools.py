@@ -33,6 +33,10 @@ def test_mode_basic1():
 def test_mode_basic2():
     assert(mode([5,1,2,7,2,8,4]) == 2)
 
+#general case: list with negative integers included
+def test_mode_basic3():
+    assert(mode([1,4,3,-5,-1,4,2]) == 4)
+
 
 
 
