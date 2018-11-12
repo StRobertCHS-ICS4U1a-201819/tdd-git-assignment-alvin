@@ -32,7 +32,6 @@ def ranges(num):
 def variance(list):
 
     len_list = len(list)
-    mean = sum(list)/len(list)
     list_mean_diff = []
     list_squared = []
 
@@ -43,6 +42,7 @@ def variance(list):
         return "Error: List must have 2 or more integers"
 
     else:
+        mean = sum(list) / len(list)
         a = 0
         while a <= len_list - 1:
             x = list[a] - mean
@@ -64,7 +64,6 @@ def variance(list):
 def standard_deviation(list):
 
     len_list = len(list)
-    mean = sum(list)/len(list)
     list_mean_diff = []
     list_squared = []
 
@@ -75,6 +74,7 @@ def standard_deviation(list):
         return "Error: List must have 2 or more integers"
 
     else:
+        mean = sum(list) / len(list)
         a = 0
         while a <= len_list - 1:
             x = list[a] - mean
