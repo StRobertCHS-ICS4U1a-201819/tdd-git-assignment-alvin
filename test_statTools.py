@@ -107,6 +107,9 @@ def test_upper_quartile_basic3():
 def test_upper_quartile_basic4():
     assert(upper_quartile([-12, 5, -22, 30, 7, -36, 14, 42, - 15, 53, 25]) == 30)
 
+#corner case: empty list
+def test_upper_quartile_corner1():
+    assert(upper_quartile([]) == "Error: Empty List")
 
 
 
