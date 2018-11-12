@@ -13,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/tdd_git_assignment_alvin$pytest_in_tdd_git_assignment_alvin.coverage" NAME="pytest in tdd-git-assignment-alvin Coverage Results" MODIFIED="1541977642175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tdd_git_assignment_alvin$pytest_in_tdd_git_assignment_alvin.coverage" NAME="pytest in tdd-git-assignment-alvin Coverage Results" MODIFIED="1541980774203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tdd_git_assignment_alvin$test_statTools.coverage" NAME="test_statTools Coverage Results" MODIFIED="1541969357660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tdd_git_assignment_alvin$pytest_in__pytest_cache.coverage" NAME="pytest in .pytest_cache Coverage Results" MODIFIED="1541970206865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.pytest_cache" />
     <SUITE FILE_PATH="coverage/tdd_git_assignment_alvin$statTools.coverage" NAME="statTools Coverage Results" MODIFIED="1541969354501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -66,13 +66,13 @@
         <counts>
           <entry key="Python Console" value="6" />
           <entry key="md" value="1" />
-          <entry key="py" value="2989" />
+          <entry key="py" value="3416" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="Python" value="2995" />
+          <entry key="Python" value="3422" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open" />
@@ -88,10 +88,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/statTools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            <state relative-caret-position="436">
+              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
               <folding>
-                <marker date="1541977517900" expanded="true" signature="590:592" ph="..." />
+                <marker date="1541980922200" expanded="true" signature="467:469" ph="..." />
+                <marker date="1541980922200" expanded="true" signature="1034:1551" ph="..." />
               </folding>
             </state>
           </provider>
@@ -100,15 +101,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_statTools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+            <state relative-caret-position="527">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <marker date="1541977710592" expanded="true" signature="248:352" ph="..." />
-                <marker date="1541977710592" expanded="true" signature="400:445" ph="..." />
-                <marker date="1541977710592" expanded="true" signature="470:475" ph="..." />
-                <marker date="1541977710592" expanded="true" signature="567:572" ph="..." />
-                <marker date="1541977710592" expanded="true" signature="722:738" ph="..." />
+                <marker date="1541980769901" expanded="true" signature="248:352" ph="..." />
+                <marker date="1541980769901" expanded="true" signature="399:445" ph="..." />
+                <marker date="1541980769901" expanded="true" signature="469:474" ph="..." />
+                <marker date="1541980769901" expanded="true" signature="566:571" ph="..." />
+                <marker date="1541980769901" expanded="true" signature="669:671" ph="..." />
               </folding>
             </state>
           </provider>
@@ -133,8 +134,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/statTools.py" />
         <option value="$PROJECT_DIR$/test_statTools.py" />
+        <option value="$PROJECT_DIR$/statTools.py" />
       </list>
     </option>
   </component>
@@ -294,34 +295,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_tdd-git-assignment-alvin - 2018.11.11 at 17h 43m 58s.xml">
-      <configuration name="pytest in tdd-git-assignment-alvin" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_tdd-git-assignment-alvin - 2018.11.11 at 17h 44m 15s.xml">
-      <configuration name="pytest in tdd-git-assignment-alvin" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_tdd-git-assignment-alvin - 2018.11.11 at 17h 44m 59s.xml">
-      <configuration name="pytest in tdd-git-assignment-alvin" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_tdd-git-assignment-alvin - 2018.11.11 at 17h 47m 44s.xml">
-      <configuration name="pytest in tdd-git-assignment-alvin" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_tdd-git-assignment-alvin - 2018.11.11 at 17h 48m 01s.xml">
-      <configuration name="pytest in tdd-git-assignment-alvin" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_tdd-git-assignment-alvin - 2018.11.11 at 18h 00m 02s.xml">
-      <configuration name="pytest in tdd-git-assignment-alvin" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_tdd-git-assignment-alvin - 2018.11.11 at 18h 04m 06s.xml">
-      <configuration name="pytest in tdd-git-assignment-alvin" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_tdd-git-assignment-alvin - 2018.11.11 at 18h 04m 52s.xml">
-      <configuration name="pytest in tdd-git-assignment-alvin" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_tdd-git-assignment-alvin - 2018.11.11 at 18h 05m 18s.xml">
       <configuration name="pytest in tdd-git-assignment-alvin" configurationId="tests" />
     </history-entry>
     <history-entry file="pytest_in_tdd-git-assignment-alvin - 2018.11.11 at 18h 07m 22s.xml">
+      <configuration name="pytest in tdd-git-assignment-alvin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_tdd-git-assignment-alvin - 2018.11.11 at 18h 44m 34s.xml">
+      <configuration name="pytest in tdd-git-assignment-alvin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_tdd-git-assignment-alvin - 2018.11.11 at 18h 46m 05s.xml">
+      <configuration name="pytest in tdd-git-assignment-alvin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_tdd-git-assignment-alvin - 2018.11.11 at 18h 46m 30s.xml">
+      <configuration name="pytest in tdd-git-assignment-alvin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_tdd-git-assignment-alvin - 2018.11.11 at 18h 55m 45s.xml">
+      <configuration name="pytest in tdd-git-assignment-alvin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_tdd-git-assignment-alvin - 2018.11.11 at 18h 56m 29s.xml">
+      <configuration name="pytest in tdd-git-assignment-alvin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_tdd-git-assignment-alvin - 2018.11.11 at 18h 59m 14s.xml">
+      <configuration name="pytest in tdd-git-assignment-alvin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_tdd-git-assignment-alvin - 2018.11.11 at 18h 59m 33s.xml">
+      <configuration name="pytest in tdd-git-assignment-alvin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_tdd-git-assignment-alvin - 2018.11.11 at 18h 59m 34s.xml">
       <configuration name="pytest in tdd-git-assignment-alvin" configurationId="tests" />
     </history-entry>
   </component>
@@ -335,7 +336,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3275488" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -369,25 +370,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_statTools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+        <state relative-caret-position="527">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1541977710592" expanded="true" signature="248:352" ph="..." />
-            <marker date="1541977710592" expanded="true" signature="400:445" ph="..." />
-            <marker date="1541977710592" expanded="true" signature="470:475" ph="..." />
-            <marker date="1541977710592" expanded="true" signature="567:572" ph="..." />
-            <marker date="1541977710592" expanded="true" signature="722:738" ph="..." />
+            <marker date="1541980769901" expanded="true" signature="248:352" ph="..." />
+            <marker date="1541980769901" expanded="true" signature="399:445" ph="..." />
+            <marker date="1541980769901" expanded="true" signature="469:474" ph="..." />
+            <marker date="1541980769901" expanded="true" signature="566:571" ph="..." />
+            <marker date="1541980769901" expanded="true" signature="669:671" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/statTools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        <state relative-caret-position="436">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
           <folding>
-            <marker date="1541977517900" expanded="true" signature="590:592" ph="..." />
+            <marker date="1541980922200" expanded="true" signature="467:469" ph="..." />
+            <marker date="1541980922200" expanded="true" signature="1034:1551" ph="..." />
           </folding>
         </state>
       </provider>

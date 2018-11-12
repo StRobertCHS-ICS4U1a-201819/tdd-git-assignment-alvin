@@ -1,21 +1,20 @@
+import math
+
 def median(num):
 
-    num_list = list(num)
-    len_num_list = len(num_list)
+    if len(num) % 2 == 1:
+        num = num[(int(len(num)/2))]
 
-    if len_num_list % 2 == 1:
-        list_median = num_list[(int(len_num_list/2))]
-
-    elif len_num_list == 0:
-        list_median = "Error: Empty List"
+    elif len(num) == 0:
+        return "Error: Empty List"
 
     else:
-        list_median = (num_list[int(len_num_list/2) - 1] + num_list[int(len_num_list/2)])/2
+        num = (num[int(len(num)/2) - 1] + num[int(len(num)/2)])/2
 
-    return list_median
+    return num
 
 
-def range(num):
+def ranges(num):
 
     num_list = list(num)
 
@@ -28,3 +27,51 @@ def range(num):
     else:
         return "Error: Empty List"
 
+
+def variance(list):
+
+    len_list = len(list)
+    mean = sum(list)/len(list)
+    datapoint_mean_diff = []
+    datapoint_squared = []
+
+    a = 0
+    while a <= len_list - 1:
+        x = list[a] - mean
+        datapoint_mean_diff.append(x)
+        a = a + 1
+
+    b = 0
+    while b <= len_list - 1:
+        y = datapoint_mean_diff[b] * datapoint_mean_diff[b]
+        datapoint_squared.append(y)
+        b = b + 1
+
+    sum_datapoint_squared = sum(datapoint_squared)
+    number = (sum_datapoint_squared / (len_list - 1))
+    return number
+
+
+def standard_deviation(list):
+
+    len_list = len(list)
+    mean = sum(list)/len(list)
+    datapoint_mean_diff = []
+    datapoint_squared = []
+
+    a = 0
+    while a <= len_list - 1:
+        x = list[a] - mean
+        datapoint_mean_diff.append(x)
+        a = a + 1
+
+    b = 0
+    while b <= len_list - 1:
+        y = datapoint_mean_diff[b] * datapoint_mean_diff[b]
+        datapoint_squared.append(y)
+        b = b + 1
+
+    sum_datapoint_squared = sum(datapoint_squared)
+    number = (sum_datapoint_squared / (len_list - 1))
+
+    return float("%0.2f" % (math.sqrt(number)))

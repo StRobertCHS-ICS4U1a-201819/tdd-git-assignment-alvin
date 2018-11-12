@@ -16,21 +16,17 @@ def test_median_corner2():
     assert(median([0]) == 0)
 
 # GENERAL RANGE TESTS
-def test_ranges_basic1():
-    assert(range([1, 2, 3, 4, 5, 6]) == 5)
+def test_range_basic1():
+    assert(ranges([1, 2, 3, 4, 5, 6]) == 5)
 
-def test_ranges_basic2():
-    assert(range([3, 4, 5, 5, 6, 7, 13]) == 10)
+def test_range_basic2():
+    assert(ranges([3, 4, 5, 5, 6, 7, 13]) == 10)
 
 # CORNER RANGE TESTS
-def test_ranges_corner1():
-    assert(range([5]) == 5)
+def test_range_corner1():
+    assert(ranges([5]) == 5)
 
-def test_ranges_corner2():
-    assert(range([]) == "Error: Empty List")
-
-# GENERAL VARIANCE TESTS
-def test_variance_basic1():
-    assert()
+def test_range_corner2():
+    assert(ranges([]) == "Error: Empty List")
 
 
