@@ -97,7 +97,7 @@ def test_standard_deviation_corner1():
     assert(standard_deviation([1]) == "Error: List must have 2 or more integers")
 
 
-def test_standard_deviatione_corner2():
+def test_standard_deviation_corner2():
     assert(standard_deviation([]) == "Error: Empty List")
 
 
