@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 """
 -------------------------------------------------------------------------------
-Name:		statTools.py
+Name:		test_statTools.py
 Purpose:
 The purpose of this file is to contain assert functions to test the functionality
 of the central tendency and spread functions that are located in the statTools.py file.
