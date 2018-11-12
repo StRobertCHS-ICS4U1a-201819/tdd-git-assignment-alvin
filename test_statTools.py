@@ -89,8 +89,6 @@ def test_lower_quartile_unusual():
 def test_lower_quartile_unusual2():
     assert(lower_quartile(["good morning", 13, "!?", 7, 3]) == "Error: TypeError")
 
-#-----------------------------------------------------------------
-
 #genercal case: sorted list (length of list is even)
 def test_upper_quartile_basic1():
     assert(upper_quartile([1, 1, 2, 4, 5, 5, 7, 8]) == 6)
