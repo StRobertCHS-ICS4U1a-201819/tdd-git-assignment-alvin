@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85cf60a5-002f-432f-ada0-d9796f777e78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/statTools.py" beforeDir="false" afterPath="$PROJECT_DIR$/statTools.py" afterDir="false" />
-    </list>
+    <list default="true" id="85cf60a5-002f-432f-ada0-d9796f777e78" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,11 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/statTools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-248">
-              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-              <folding>
-                <marker date="1541984186957" expanded="true" signature="481:483" ph="..." />
-              </folding>
+            <state relative-caret-position="472">
+              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
             </state>
           </provider>
         </entry>
@@ -98,17 +93,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_statTools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="812">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <marker date="1541983849192" expanded="true" signature="248:352" ph="..." />
-                <marker date="1541983849192" expanded="true" signature="399:445" ph="..." />
-                <marker date="1541983849192" expanded="true" signature="469:474" ph="..." />
-                <marker date="1541983849192" expanded="true" signature="566:571" ph="..." />
-                <marker date="1541983849192" expanded="true" signature="722:727" ph="..." />
-                <marker date="1541983849192" expanded="true" signature="908:982" ph="..." />
-                <marker date="1541983849192" expanded="true" signature="1010:1577" ph="..." />
               </folding>
             </state>
           </provider>
@@ -118,7 +106,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-204" />
+              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -285,7 +273,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="85cf60a5-002f-432f-ada0-d9796f777e78" name="Default Changelist" comment="" />
+      <changelist id="8f182758-aff2-48fc-b2b4-e4f80522dd3c" name="Default Changelist" comment="" />
       <created>1541426061763</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -294,12 +282,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_tdd-git-assignment-alvin - 2018.11.11 at 19h 38m 51s.xml">
-      <configuration name="pytest in tdd-git-assignment-alvin" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_tdd-git-assignment-alvin - 2018.11.11 at 19h 40m 38s.xml">
-      <configuration name="pytest in tdd-git-assignment-alvin" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_tdd-git-assignment-alvin - 2018.11.11 at 19h 41m 47s.xml">
       <configuration name="pytest in tdd-git-assignment-alvin" configurationId="tests" />
     </history-entry>
@@ -324,11 +306,17 @@
     <history-entry file="pytest_in_tdd-git-assignment-alvin - 2018.11.11 at 19h 56m 27s.xml">
       <configuration name="pytest in tdd-git-assignment-alvin" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_tdd-git-assignment-alvin - 2018.11.11 at 20h 03m 54s.xml">
+      <configuration name="pytest in tdd-git-assignment-alvin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_tdd-git-assignment-alvin - 2018.11.11 at 20h 04m 23s.xml">
+      <configuration name="pytest in tdd-git-assignment-alvin" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.26599148" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.17803837" />
       <window_info id="Structure" order="1" sideWeight="0.501634" side_tool="true" weight="0.24508321" />
       <window_info id="Favorites" order="2" sideWeight="0.50121653" side_tool="true" weight="0.24508321" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -361,35 +349,25 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-204" />
+          <first_editor />
           <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_statTools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="812">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1541983849192" expanded="true" signature="248:352" ph="..." />
-            <marker date="1541983849192" expanded="true" signature="399:445" ph="..." />
-            <marker date="1541983849192" expanded="true" signature="469:474" ph="..." />
-            <marker date="1541983849192" expanded="true" signature="566:571" ph="..." />
-            <marker date="1541983849192" expanded="true" signature="722:727" ph="..." />
-            <marker date="1541983849192" expanded="true" signature="908:982" ph="..." />
-            <marker date="1541983849192" expanded="true" signature="1010:1577" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/statTools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-248">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-          <folding>
-            <marker date="1541984186957" expanded="true" signature="481:483" ph="..." />
-          </folding>
+        <state relative-caret-position="472">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
         </state>
       </provider>
     </entry>
