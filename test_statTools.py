@@ -1,6 +1,20 @@
+"""
+-------------------------------------------------------------------------------
+Name:		statTools.py
+Purpose:
+The purpose of this file is to contain assert functions to test the functionality
+of the central tendency and spread functions that are located in the statTools.py file.
+
+Authors:		Lau.A, Ru.E
+
+Created:		11/11/2018
+------------------------------------------------------------------------------
+"""
+
 import pytest
 from statTools import *
 
+#MEAN GENERAL CASE:
 #general case: sorted list
 def test_mean_basic1():
     assert(mean([1, 2, 4, 7, 8]) == 4.4)
@@ -120,18 +134,3 @@ def test_upper_quartile_unusual():
 #unusual case: list with integers and strings
 def test_upper_quartile_unusual2():
     assert(upper_quartile(["good morning", 13, "!?", 7, 3]) == "Error: TypeError")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

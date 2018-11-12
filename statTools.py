@@ -2,17 +2,23 @@
 -------------------------------------------------------------------------------
 Name:		statTools.py
 Purpose:
-(Mean):
-Add all integers in a given list and divide the total by the amount of integers
-in the list. Return the result.
+The purpose of this file is to contain the central tendency functions and
+spread functions.
 
-Author:		Lau.A
+Authors:		Lau.A, Ru.E
 
-Created:		09/09/2018
+Created:		11/11/2018
 ------------------------------------------------------------------------------
 """
 
 def mean(my_list):
+    '''Adds all integers in a given list and divide the total by the amount of
+    integers in the list Return the result.
+
+     :param my_list: the list of integers to find the mean from
+     :return: returns the mean of the list
+     '''
+
     try:
         total = 0
         if len(my_list) == 0:
@@ -24,6 +30,12 @@ def mean(my_list):
         return "Error: TypeError"
 
 def mode(my_list):
+    '''Finds the mode of the list of integers and returns it.
+
+     :param my_list: the list of integers to find the mode from
+     :return: returns the mode of the list
+     '''
+
     count = 0
     mode = None
     mode2 = None
@@ -44,6 +56,14 @@ def mode(my_list):
         return mode
 
 def lower_quartile(my_list):
+    '''Finds the median of the lower half of the list of integers.
+    Specific function procedure: Cuts the list so that only the first 1/4th
+    of the list remains. Then it finds and returns the area that is cut.
+
+     :param my_list: the list of integers to find the lower quartile from
+     :return: returns the lower quartile of the list
+     '''
+
     try:
         my_list.sort()
         if len(my_list) == 0:
@@ -63,6 +83,14 @@ def lower_quartile(my_list):
         return "Error: TypeError"
 
 def upper_quartile(my_list):
+    '''Finds the median of the upper half of the list of integers.
+    Specific function procedure: Cuts the list so that only the last 1/4th
+    of the list remains. Then it finds and returns the area that is cut.
+
+     :param my_list: the list of integers to find the upper quartile from
+     :return: returns the upper quartile of the list
+     '''
+
     try:
         my_list.sort()
         if len(my_list) == 0:
