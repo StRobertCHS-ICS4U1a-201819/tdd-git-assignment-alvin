@@ -103,6 +103,11 @@ def test_upper_quartile_basic2():
 def test_upper_quartile_basic3():
     assert(upper_quartile([1, 2, 3, 4, 5, 6, 6, 7, 8, 8]) == 7)
 
+#general case: unsorted list with negative integers (length of list is odd)
+def test_upper_quartile_basic4():
+    assert(upper_quartile([-12, 5, -22, 30, 7, -36, 14, 42, - 15, 53, 25]) == 30)
+
+
 
 
 
