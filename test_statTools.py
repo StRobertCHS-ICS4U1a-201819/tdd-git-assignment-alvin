@@ -105,4 +105,3 @@ def test_standard_deviatione_corner2():
 # UNUSUAL STANDARD DEVIATION TEST
 def test_standard_deviation_unusual1():
     assert(standard_deviation(["hello", 10, 20, 30]) == "Error: Type Error")
-
