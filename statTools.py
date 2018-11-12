@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 -------------------------------------------------------------------------------
 Name:		statTools.py
@@ -109,7 +108,7 @@ def upper_quartile(my_list):
             return my_list[0]
     except TypeError:
         return "Error: TypeError"
-=======
+#========================================
 import math
 
 
@@ -214,5 +213,3 @@ def standard_deviation(num):
 
     except TypeError:
         return "Error: Type Error"
-
->>>>>>> master
