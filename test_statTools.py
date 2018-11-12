@@ -115,6 +115,10 @@ def test_upper_quartile_corner1():
 def test_upper_quartile_corner2():
     assert(upper_quartile([1]) == "No upper or lower quartile")
 
+#unusual case: list with integers and strings
+def test_upper_quartile_unusual():
+    assert(upper_quartile(["p", "f", 3, "12", "."]) == "Error: TypeError")
+
 
 
 
