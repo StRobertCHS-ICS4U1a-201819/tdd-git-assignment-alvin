@@ -28,11 +28,11 @@ def test_mean_basic2():
 def test_mean_basic3():
     assert(mean([3, 1, -4, 1, -6, 2]) == -0.5)
 
+#MEAN CORNER CASE:
 #corner case: list of 1 integer
 def test_mean_corner1():
     assert(mean([0]) == 0)
 
-#MEAN CORNER CASE:
 #corner case: empty list
 def test_mean_corner2():
     assert(mean([]) == "Error: Empty List")
