@@ -141,66 +141,78 @@ def ranges(num):
         return "Error: Empty List"
 
 
-def variance(list):
+def variance(num):
 
-    len_list = len(list)
+    num_list = list(num)
+    len_list = len(num_list)
     list_mean_diff = []
     list_squared = []
 
-    if len_list == 0:
-        return "Error: Empty List"
+    try:
+        if len_list == 0:
+            return "Error: Empty List"
 
-    elif len_list == 1:
-        return "Error: List must have 2 or more integers"
+        elif len_list == 1:
+            return "Error: List must have 2 or more integers"
 
-    else:
-        mean = sum(list) / len(list)
-        a = 0
-        while a <= len_list - 1:
-            x = list[a] - mean
-            list_mean_diff.append(x)
-            a = a + 1
+        elif len_list >= 2:
+            mean = sum(num_list) / len(num_list)
+            a = 0
+            while a <= len_list - 1:
+                x = num_list[a] - mean
+                list_mean_diff.append(x)
+                a = a + 1
 
-        b = 0
-        while b <= len_list - 1:
-            y = list_mean_diff[b] * list_mean_diff[b]
-            list_squared.append(y)
-            b = b + 1
+            b = 0
+            while b <= len_list - 1:
+                y = list_mean_diff[b] * list_mean_diff[b]
+                list_squared.append(y)
+                b = b + 1
 
-        sum_list_squared = sum(list_squared)
-        number = (sum_list_squared / len_list)
+            sum_list_squared = sum(list_squared)
+            number = (sum_list_squared / len_list)
 
-        return number
+            return number
+
+    except TypeError:
+        return "Error: Type Error"
 
 
-def standard_deviation(list):
 
-    len_list = len(list)
+def standard_deviation(num):
+
+    num_list = list(num)
+    len_list = len(num_list)
     list_mean_diff = []
     list_squared = []
 
-    if len_list == 0:
-        return "Error: Empty List"
+    try:
+        if len_list == 0:
+            return "Error: Empty List"
 
-    elif len_list == 1:
-        return "Error: List must have 2 or more integers"
+        elif len_list == 1:
+            return "Error: List must have 2 or more integers"
 
-    else:
-        mean = sum(list) / len(list)
-        a = 0
-        while a <= len_list - 1:
-            x = list[a] - mean
-            list_mean_diff.append(x)
-            a = a + 1
+        elif len_list >= 2:
+            mean = sum(num_list) / len(num_list)
+            a = 0
+            while a <= len_list - 1:
+                x = num_list[a] - mean
+                list_mean_diff.append(x)
+                a = a + 1
 
-        b = 0
-        while b <= len_list - 1:
-            y = list_mean_diff[b] * list_mean_diff[b]
-            list_squared.append(y)
-            b = b + 1
+            b = 0
+            while b <= len_list - 1:
+                y = list_mean_diff[b] * list_mean_diff[b]
+                list_squared.append(y)
+                b = b + 1
 
-        sum_list_squared = sum(list_squared)
-        number = (sum_list_squared / len_list)
+            sum_list_squared = sum(list_squared)
+            number = (sum_list_squared / len_list)
 
-        return float((math.sqrt(number)))
+            return float((math.sqrt(number)))
+
+    except TypeError:
+        return "Error: Type Error"
+
 >>>>>>> master
