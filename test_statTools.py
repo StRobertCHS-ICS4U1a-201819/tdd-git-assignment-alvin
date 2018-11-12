@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 -------------------------------------------------------------------------------
 Name:		test_statTools.py
@@ -146,7 +145,7 @@ def test_upper_quartile_unusual():
 #unusual case: list with integers and strings
 def test_upper_quartile_unusual2():
     assert(upper_quartile(["good morning", 13, "!?", 7, 3]) == "Error: TypeError")
-=======
+#==========================
 
 # GENERAL MEDIAN TESTS
 def test_median_basic1():
@@ -211,5 +210,3 @@ def test_standard_deviatione_corner2():
 # UNUSUAL STANDARD DEVIATION TEST
 def test_standard_deviation_unusual1():
     assert(standard_deviation(["hello", 10, 20, 30]) == "Error: Type Error")
-    
->>>>>>> master
