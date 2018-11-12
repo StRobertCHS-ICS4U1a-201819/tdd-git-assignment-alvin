@@ -111,6 +111,11 @@ def test_upper_quartile_basic4():
 def test_upper_quartile_corner1():
     assert(upper_quartile([]) == "Error: Empty List")
 
+#corner case: list of 1 integer
+def test_upper_quartile_corner2():
+    assert(upper_quartile([1]) == "No upper or lower quartile")
+
+
 
 
 
