@@ -1,5 +1,19 @@
+"""
+-------------------------------------------------------------------------------
+Name:		test_statTools.py
+Purpose:
+Tests for all functions through pytest
+
+Author:		Ru. E
+
+Created:	11/11/2018
+------------------------------------------------------------------------------
+"""
+
+
 import pytest
 from statTools import*
+
 
 # GENERAL MEDIAN TESTS
 def test_median_basic1():

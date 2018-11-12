@@ -1,3 +1,20 @@
+"""
+-------------------------------------------------------------------------------
+Name:		statTools.py
+Purpose:		
+4 Types of functions
+Median: outputs the middle number of a list.
+Range: outputs the difference between largest and smallest number of a list/
+Variance: outputs the difference between each number and mean of a list is appended to a new list, then is calculated 
+again by adding all the new numbers together and dividing it by the length of the new list.
+Standard Deviation: same as variance except output number is square rooted
+
+Author:		Ru. E
+
+Created:	11/11/2018
+------------------------------------------------------------------------------
+"""
+
 import math
 
 
