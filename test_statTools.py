@@ -29,4 +29,31 @@ def test_range_corner1():
 def test_range_corner2():
     assert(ranges([]) == "Error: Empty List")
 
+# GENERAL VARIANCE TESTS
+def test_variance_basic1():
+    assert(variance([10, 20, 30, 40]) == 125)
+
+def test_variance_basic2():
+    assert(variance([600, 470, 170, 430, 300]) == 21704)
+
+# CORNER VARIANCE TESTS
+def test_variance_corner1():
+    assert(variance([1]) == "Error: List must have 2 or more integers")
+
+def test_variance_corner2():
+    assert(variance([]) == "Error: Empty List")
+
+# GENERAL STANDARD DEVIATION TESTS
+def test_standard_deviation_basic1():
+    assert(standard_deviation([10, 20, 30, 40]) == (math.sqrt(125)))
+
+def test_standard_deviation_basic2():
+    assert(standard_deviation([600, 470, 170, 430, 300]) == (math.sqrt(21704)))
+
+# CORNER STANDARD DEVIATION TESTS
+def test_standard_deviation_corner1():
+    assert(standard_deviation([1]) == "Error: List must have 2 or more integers")
+
+def test_standard_deviatione_corner2():
+    assert(standard_deviation([]) == "Error: Empty List")
 
