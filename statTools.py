@@ -67,3 +67,6 @@ def upper_quartile(my_list):
     if len(my_list) % 2 == 0 and len(my_list) % 4 == 0:
         my_list = my_list[int(len(my_list)*(3/4)-1):]
         return (my_list[0] + my_list[1])/2
+    elif len(my_list) % 2 == 0 and len(my_list) % 4 != 0:
+        my_list = my_list[int(len(my_list) * (3 / 4)):]
+        return my_list[0]

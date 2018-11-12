@@ -99,6 +99,9 @@ def test_upper_quartile_basic1():
 def test_upper_quartile_basic2():
     assert(upper_quartile([12, 5, 22, 30, 7, 36, 14, 42, 15, 53, 25, 65]) == 39)
 
+#general case: sorted list (remainder when divided by 4)
+def test_upper_quartile_basic3():
+    assert(upper_quartile([1, 2, 3, 4, 5, 6, 6, 7, 8, 8]) == 7)
 
 
 
