@@ -95,6 +95,11 @@ def test_lower_quartile_unusual2():
 def test_upper_quartile_basic1():
     assert(upper_quartile([1, 1, 2, 4, 5, 5, 7, 8]) == 6)
 
+#general case: unsorted list (length of list is even)
+def test_upper_quartile_basic2():
+    assert(upper_quartile([12, 5, 22, 30, 7, 36, 14, 42, 15, 53, 25, 65]) == 39)
+
+
 
 
 
