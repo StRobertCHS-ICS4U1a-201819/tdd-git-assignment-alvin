@@ -32,14 +32,17 @@ def test_mean_basic3():
 def test_mean_corner1():
     assert(mean([0]) == 0)
 
+#MEAN CORNER CASE:
 #corner case: empty list
 def test_mean_corner2():
     assert(mean([]) == "Error: Empty List")
 
+#MEAN UNUSUAL CASE:
 #unusual case: string input
 def test_mean_unusual():
     assert(mean(["2", "4", "7", "3"]) == "Error: TypeError")
 
+#MODE GENERAL CASE:
 #general case: sorted list
 def test_mode_basic1():
     assert(mode([1, 2, 2, 4, 5, 7, 8]) == 2)
@@ -56,6 +59,7 @@ def test_mode_basic3():
 def test_mode_basic4():
     assert(mode([1, 3, 2, 3, 1, 4, 4, 5]) == "There is no unique mode")
 
+#MODE CORNER CASE:
 #corner case: empty list
 def test_mode_corner():
     assert(mode([]) == "Error: Empty List")
@@ -64,6 +68,7 @@ def test_mode_corner():
 def test_mode_corner2():
     assert(mode([1]) == 1)
 
+#MODE UNUSUAL CASE:
 #unusual case: list with integers and strings
 def test_mode_unusual():
     assert(mode(["3", "1", "5", 1, "7", 3]) == "There is no unique mode")
@@ -72,6 +77,7 @@ def test_mode_unusual():
 def test_mode_unusual2():
     assert (mode(["3", "f", 7, ".", "r", "g", 3, "."]) == ".")
 
+#LOWER QUARTILE GENERAL CASE:
 #genercal case: sorted list (length of list is even)
 def test_lower_quartile_basic1():
     assert(lower_quartile([1, 1, 2, 4, 5, 5, 7, 8]) == 1.5)
@@ -88,6 +94,7 @@ def test_lower_quartile_basic3():
 def test_lower_quartile_basic4():
     assert(lower_quartile([-12, 5, -22, 30, 7, -36, 14, 42, - 15, 53, 25]) == -15)
 
+#LOWER QUARTILE CORNER CASE:
 #corner case: empty list
 def test_lower_quartile_corner1():
     assert(lower_quartile([]) == "Error: Empty List")
@@ -96,6 +103,7 @@ def test_lower_quartile_corner1():
 def test_lower_quartile_corner2():
     assert(lower_quartile([1]) == "No upper or lower quartile")
 
+#LOWER QUARTILE UNUSUAL CASE:
 #unusual case: list with integers and strings
 def test_lower_quartile_unusual():
     assert(lower_quartile(["p", "f", 3, "12", "."]) == "Error: TypeError")
@@ -104,6 +112,7 @@ def test_lower_quartile_unusual():
 def test_lower_quartile_unusual2():
     assert(lower_quartile(["good morning", 13, "!?", 7, 3]) == "Error: TypeError")
 
+#UPPER QUARTILE GENERAL CASE:
 #genercal case: sorted list (length of list is even)
 def test_upper_quartile_basic1():
     assert(upper_quartile([1, 1, 2, 4, 5, 5, 7, 8]) == 6)
@@ -120,6 +129,7 @@ def test_upper_quartile_basic3():
 def test_upper_quartile_basic4():
     assert(upper_quartile([-12, 5, -22, 30, 7, -36, 14, 42, - 15, 53, 25]) == 30)
 
+#UPPER QUARTILE CORNER CASE:
 #corner case: empty list
 def test_upper_quartile_corner1():
     assert(upper_quartile([]) == "Error: Empty List")
@@ -128,6 +138,7 @@ def test_upper_quartile_corner1():
 def test_upper_quartile_corner2():
     assert(upper_quartile([1]) == "No upper or lower quartile")
 
+#UPPER QUARTILE UNUSUAL CASE:
 #unusual case: list with integers and strings
 def test_upper_quartile_unusual():
     assert(upper_quartile(["p", "f", 3, "12", "."]) == "Error: TypeError")
@@ -136,8 +147,6 @@ def test_upper_quartile_unusual():
 def test_upper_quartile_unusual2():
     assert(upper_quartile(["good morning", 13, "!?", 7, 3]) == "Error: TypeError")
 =======
-import pytest
-from statTools import*
 
 # GENERAL MEDIAN TESTS
 def test_median_basic1():
