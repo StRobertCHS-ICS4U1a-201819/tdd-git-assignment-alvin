@@ -189,6 +189,10 @@ def test_variance_corner1():
 
 def test_variance_corner2():
     assert(variance([]) == "Error: Empty List")
+    
+# UNUSUAL VARIANCE TEST
+def test_variance_unusual1():
+    assert(variance(["hello", 10, 20, 30]) == "Error: Type Error")
 
 # GENERAL STANDARD DEVIATION TESTS
 def test_standard_deviation_basic1():
@@ -203,4 +207,9 @@ def test_standard_deviation_corner1():
 
 def test_standard_deviatione_corner2():
     assert(standard_deviation([]) == "Error: Empty List")
+    
+# UNUSUAL STANDARD DEVIATION TEST
+def test_standard_deviation_unusual1():
+    assert(standard_deviation(["hello", 10, 20, 30]) == "Error: Type Error")
+    
 >>>>>>> master
